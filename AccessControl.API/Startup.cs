@@ -19,6 +19,7 @@ using AccessControl.API.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AccessControl.API.ZebraRepo;
 
 namespace AccessControl.API
 {
@@ -62,6 +63,7 @@ namespace AccessControl.API
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IPermissionRepository, PermissionRepository>();
             services.AddScoped<IAdminRepository, AdminRepository>();
+            services.AddScoped<IZebraRepository, ZebraRepository>();
             // Auto Mapper Configurations
             //inject factory
             services.AddTransient<IDbConnectionFactory, DapperDbConnectionFactory>();

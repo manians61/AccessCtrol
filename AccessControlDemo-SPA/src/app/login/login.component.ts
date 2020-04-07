@@ -26,6 +26,7 @@ export class LoginComponent implements OnInit {
 
   login() {
     this.model = Object.assign({}, this.loginForm.value);
+    console.log(this.model);
     this.authService.login(this.model).subscribe(
       next => {
         this.alertify.success('Log in Successfully');

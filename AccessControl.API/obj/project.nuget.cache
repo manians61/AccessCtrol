@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U0OPguhB2pEuJT+dLjAs61wu44Vvvevy6070+YDhv4ZRtoHOeXKk6flA41HVTjqC8d7+cMkqf9qpUxZzM+1VzA==",
+  "dgSpecHash": "35yS67KTwKVaHkpn+K0/XFxMiAyFx+3SugHNDGd3Ep3WNA1tiP9PVYFUcLFak4GSGzzASPfBBktcXzUFj4whCg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\AccessControl-master\\AccessControl.API\\AccessControl.API.csproj",
+  "projectFilePath": "D:\\Projects\\AccessControl\\AccessControl.API\\AccessControl.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maton\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\maton\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",

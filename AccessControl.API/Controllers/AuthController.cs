@@ -86,8 +86,9 @@ namespace AccessControl.API.Controllers
         }
         [HttpPost("register")]
         public async Task<IActionResult> register(User user)
-        {
-
+        {   
+            user.LastUpdateDate = DateTime.Now;
+            user.LastUpdateBy = user.User_ID;
             var createUser = await _repo.Register(user);
 
             return StatusCode(201);
